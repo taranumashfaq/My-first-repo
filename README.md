@@ -1,2 +1,2 @@
-# My-first-repo
+# python-basics
 This is my first GitHub repository where I'm practicing Python and version control.
