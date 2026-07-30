@@ -22,6 +22,10 @@
         .about h1{
             margin-bottom: 40px;
         }
+        html {
+            scroll-behavior: smooth;
+        }
+        
             
         .skills {
             display: flex;
@@ -105,6 +109,9 @@
             align-items: center;
             height: 80px;
             background-color: rgb(2, 41, 21);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
 
         nav ul {
@@ -216,10 +223,10 @@
             <div class="left">Taranum's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -242,22 +249,34 @@
          <div class="about">
             <h1>About</h1>
             <p>
-                I am a passionate Frontend Developer and Python learner with a strong interest in 
-                creating modern, responsive and user-friendly websites. I enjoy turning ideas into 
+                I am a passionate Software Developer and Python learner with a strong interest in 
+                creating modern, responsive and user friendly websites. I enjoy turning ideas into 
                 clean and functional web experiences while continously learning new technologies 
-                and improving my skills through real-world projects.
+                and improving my skills through real world projects.
             </p>
         </div>
         <div class="skills">
-            <h1>Skills</h1>
-            <ul class="skills-list">
+            <h1>Technical Skills</h1>
+            <ul class="technical skills-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Python</li>
                 <li>Github (Basics)</li>
                 <li>VS Code</li>
             </ul>
-        </div>   
+            <h2>Soft Skills </h2>
+            <ul class="soft skills-list">
+                <li>Leadership</li>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+        </div>
+                
+            </div>
+            
 
             <div class="projects">
                 <h1>Projects</h1>
@@ -271,7 +290,7 @@
                 <h1>Certifications</h1>
                 <ul class="certifications-list">
                     <li>Python for Everybody Specialization - Coursera</li>
-                    <li><a href="https://coursera.org/share/fda5e17f231960dcc73875eb2ac81e13" target="_blank">View Certificate</a></li>
+                    <li><a href="https://www.coursera.org/account/accomplishments/certificate/8FA4A2GIY7FV" target="_blank">View Certificate</a></li>
                 </ul>
             </div>
 
